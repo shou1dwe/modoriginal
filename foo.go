@@ -2,6 +2,6 @@ package modoriginal
 
 import "fmt" 
 
-func Echo(output string) {
-	fmt.Println(output)
+func Echo(prefix, output string) {
+	fmt.Println(prefix, output)
 }
